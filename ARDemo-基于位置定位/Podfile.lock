@@ -1,0 +1,32 @@
+PODS:
+  - GoogleMaps/Base (3.3.0)
+  - GooglePlaces (3.3.0):
+    - GoogleMaps/Base (= 3.3.0)
+  - HDAugmentedReality (2.4.0)
+  - SnapKit (5.0.1)
+  - "Swift+KRHebbian (1.1)"
+
+DEPENDENCIES:
+  - GooglePlaces (~> 3.3.0)
+  - HDAugmentedReality (~> 2.4)
+  - SnapKit
+  - "Swift+KRHebbian (~> 1.1)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - HDAugmentedReality
+    - SnapKit
+    - "Swift+KRHebbian"
+
+SPEC CHECKSUMS:
+  GoogleMaps: cfee83da305b9aaeccf92c24ac79df11c3003492
+  GooglePlaces: 1e2a87bd9efee9623ee65d44ecc35ebfecd7b13c
+  HDAugmentedReality: 7a6afcd7792b9b4e5b3cc6069302a19e5ddbfdec
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  "Swift+KRHebbian": d8da76949b21eeaa62507add570fd91247a75837
+
+PODFILE CHECKSUM: e01bf13ef42cc96e5bae836d2fec00ca26ba4a67
+
+COCOAPODS: 1.6.1

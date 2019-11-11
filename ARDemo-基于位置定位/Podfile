@@ -1,0 +1,11 @@
+platform:ios , '10.0'
+workspace 'ARDemo-基于位置定位.xcworkspace'
+use_frameworks!
+# 清除第三方库的警告
+inhibit_all_warnings!
+target 'ARDemo-基于位置定位' do
+    pod  'SnapKit'
+    pod 'GooglePlaces', '~> 3.3.0'
+    pod 'HDAugmentedReality', '~> 2.4'
+    pod 'Swift+KRHebbian', '~> 1.1'
+end
